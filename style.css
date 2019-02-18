@@ -1,0 +1,298 @@
+html {
+  background-color: #f2f0ed;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.title {
+  color: #7c7974;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  height: 100px;
+  width: 20%;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
+  text-align: center;
+  font-weight: 400;
+}
+
+
+.color {
+  width: 100%;
+  height: 50%;
+}
+
+.primary-color {
+  background-color: #F7A900;
+}
+
+.secondary-color {
+  background-color: #4b74fc;
+}
+
+
+.light-grey {
+  background-color: #F4EFE7;
+}
+
+.grey {
+  background-color: #D7D2CA;
+}
+
+.dark-grey {
+  background-color: #7c7974;
+}
+
+.btn {
+  display: block;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+}
+
+
+.btn:hover {
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.2);
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-lg {
+  display: block;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  width: 115px;
+  text-align: center;
+  font-size: 24px;
+}
+.btn-lg:hover {
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+}
+.btn-lg:focus {
+  box-shadow: none;
+}
+
+.btn-sm {
+  display: block;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  text-decoration: none;
+  width: 50px;
+  text-align: center;
+  font-size: 10px;
+}
+.btn-sm:hover {
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.1);
+}
+.btn-sm:focus {
+  box-shadow: none;
+}
+
+.warning {
+  background-color: #F7A900;
+}
+.warning:hover  {
+  background-color: #ffb81f;
+}
+
+.danger {
+  background-color: #aa0a14;
+}
+.danger:hover {
+  background-color: #c20b17;
+}
+
+.success {
+  background-color: #27c447;
+}
+.success:hover {
+  background-color: #2fd651;
+}
+
+.info {
+  background-color: #4b74fc;
+}
+.info:hover {
+  background-color: #6487fc;
+}
+
+.outline-btn-warning {
+  border: 2px solid #F7A900;
+  display: block;
+  color: #F7A900;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+  background-color: white;
+}
+
+.outline-btn-warning:hover {
+  background-color: #F7A900;
+  color: white;
+}
+
+.outline-btn-danger {
+  border: 2px solid #aa0a14;
+  display: block;
+  color: #aa0a14;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+  background-color: white;
+}
+
+.outline-btn-danger:hover {
+  background-color: #aa0a14;
+  color: white;
+}
+
+.outline-btn-success {
+  border: 2px solid #27c447;
+  display: block;
+  color: #27c447;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+  background-color: white;
+}
+
+.outline-btn-success:hover {
+  background-color: #27c447;
+  color: white;
+}
+
+.outline-btn-info {
+  border: 2px solid #4b74fc;
+  display: block;
+  color: #4b74fc;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+  background-color: white;
+}
+
+.outline-btn-info:hover {
+  background-color: #4b74fc;
+  color: white;
+}
+
+.spaces {
+  margin: 10px;
+}
+
+
+.bold {
+  font-weight: 800;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.size {
+  font-size: 24px;
+}
+
+.icon {
+  height: 50px;
+}
+
+input[type=text] {
+  height: 40px;
+  	width: 600px;
+  	background-color: white;
+  	border: 0.5px solid #D7D2CA;
+  	font-size: 18px;
+  	padding: 0 10px;
+  	margin-bottom: 20px;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 4px 4px 0px rgba(0,0,0,0.1);
+	outline: none;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  height: 40px;
+  	width: 600px;
+  	background-color: white;
+  	border: 0.5px solid #D7D2CA;
+  	font-size: 18px;
+  	padding: 0 10px;
+  	margin-bottom: 20px;
+}
+
+textarea {
+  height: 75px;
+  	width: 600px;
+  	background-color: white;
+  	border: 0.5px solid #D7D2CA;
+  	font-size: 18px;
+  	padding: 0 10px;
+  	margin-bottom: 20px;
+}
+
+textarea:focus {
+  box-shadow: 0 4px 4px 0px rgba(0,0,0,0.1);
+	outline: none;
+
+}
+
+.listitem {
+  border: 0.5px solid #D7D2CA;
+  width: 300px;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+.element {
+  width: 100%;
+  border-bottom: 0.5px solid #D7D2CA;
+  padding: 10px;
+}
+
+.element:hover {
+  background-color: #F4EFE7;
+}
